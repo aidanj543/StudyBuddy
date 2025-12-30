@@ -6,24 +6,61 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		CF877C012F0495B20014E64A /* StudyBuddyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF877BFD2F048CD10014E64A /* StudyBuddyApp.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		CF877BEA2F048A4F0014E64A /* StudyBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudyBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF877BFD2F048CD10014E64A /* StudyBuddyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyBuddyApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		CF877C052F0495B20014E64A /* Exceptions for "ViewModels" folder in "StudyBuddy" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				TaskViewModel.swift,
+			);
+			target = CF877BE92F048A4F0014E64A /* StudyBuddy */;
+		};
+		CF877C062F0495B20014E64A /* Exceptions for "VIews" folder in "StudyBuddy" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				ContentView.swift,
+			);
+			target = CF877BE92F048A4F0014E64A /* StudyBuddy */;
+		};
+		CF877C072F0495B20014E64A /* Exceptions for "Models" folder in "StudyBuddy" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Task.swift,
+			);
+			target = CF877BE92F048A4F0014E64A /* StudyBuddy */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		CF877BFA2F048CAA0014E64A /* Models */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				CF877C072F0495B20014E64A /* Exceptions for "Models" folder in "StudyBuddy" target */,
+			);
 			path = Models;
 			sourceTree = "<group>";
 		};
 		CF877BFB2F048CB50014E64A /* VIews */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				CF877C062F0495B20014E64A /* Exceptions for "VIews" folder in "StudyBuddy" target */,
+			);
 			path = VIews;
 			sourceTree = "<group>";
 		};
 		CF877BFC2F048CBC0014E64A /* ViewModels */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				CF877C052F0495B20014E64A /* Exceptions for "ViewModels" folder in "StudyBuddy" target */,
+			);
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
@@ -130,6 +167,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF877C012F0495B20014E64A /* StudyBuddyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
