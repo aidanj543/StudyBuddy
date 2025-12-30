@@ -8,12 +8,23 @@
 
 /* Begin PBXFileReference section */
 		CF877BEA2F048A4F0014E64A /* StudyBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudyBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF877BFD2F048CD10014E64A /* StudyBuddyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyBuddyApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		CF877BEC2F048A4F0014E64A /* StudyBuddy */ = {
+		CF877BFA2F048CAA0014E64A /* Models */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = StudyBuddy;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CF877BFB2F048CB50014E64A /* VIews */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = VIews;
+			sourceTree = "<group>";
+		};
+		CF877BFC2F048CBC0014E64A /* ViewModels */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +43,10 @@
 		CF877BE12F048A4F0014E64A = {
 			isa = PBXGroup;
 			children = (
-				CF877BEC2F048A4F0014E64A /* StudyBuddy */,
+				CF877BFD2F048CD10014E64A /* StudyBuddyApp.swift */,
+				CF877BFC2F048CBC0014E64A /* ViewModels */,
+				CF877BFB2F048CB50014E64A /* VIews */,
+				CF877BFA2F048CAA0014E64A /* Models */,
 				CF877BEB2F048A4F0014E64A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,9 +73,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				CF877BEC2F048A4F0014E64A /* StudyBuddy */,
 			);
 			name = StudyBuddy;
 			packageProductDependencies = (
